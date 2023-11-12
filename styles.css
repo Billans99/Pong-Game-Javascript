@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#game-container {
+    width: 80%;
+    margin: 60px auto;
+    text-align: center;
+
+}
+
+#game-board {
+    border: 3px solid grey;
+    width: 100%;
+}
+
+#score-text {
+    font-family: "consolas", monospace;
+    font-size: 100px;
+    margin: 0 auto;
+}
+
+#reset-button {
+    height: 50px;
+    width: 150px;
+    /*
+    margin: 0 145px;
+    */
+    border: 2px solid orange;
+    border-radius: 10px;
+    background-color: rgb(250, 242, 202);
+    cursor: pointer;
+    font-size: 1.3rem;
+
+    
+}
