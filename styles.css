@@ -25,14 +25,14 @@
 #reset-button {
     height: 50px;
     width: 150px;
-    /*
-    margin: 0 145px;
-    */
     border: 2px solid orange;
     border-radius: 10px;
     background-color: rgb(250, 242, 202);
     cursor: pointer;
     font-size: 1.3rem;
+}
 
-    
+#reset-button:active {
+    color: white;
+    background-color: brown;
 }

@@ -14,3 +14,4 @@ const ballRadius = 12.5
 const paddleSpeed = 50
 let intervalID 
 let ballSpeed = 1;
+let ballX = GameWidth / 2
